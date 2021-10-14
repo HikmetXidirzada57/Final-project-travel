@@ -1,0 +1,214 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#c5bfbf), color-stop(#004680), to(#111)) no-repeat;
+  background: linear-gradient(90deg, #c5bfbf, #004680, #111) no-repeat;
+}
+
+#contact {
+  position: relative;
+}
+
+#contact .feedback {
+  padding: 0rem 10rem;
+  border-bottom: 1px solid grey;
+}
+
+#contact .feedback ul li a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 14px;
+  color: #1a2b48;
+  padding-right: 20px;
+}
+
+#contact .contact-header {
+  position: relative;
+}
+
+#contact .contact-header h3 {
+  font-size: 24px;
+  color: #1a2b48;
+}
+
+#contact .contact-header p {
+  font-size: 14px;
+  color: #5e6d77;
+}
+
+#contact .contact-header::after {
+  content: '';
+  position: absolute;
+  background: #ebeef1;
+  height: 1.5px;
+  width: 100%;
+  left: 0;
+  bottom: -25px;
+}
+
+#contact .panel {
+  width: 100%;
+  height: auto;
+  padding: 2px 0;
+  margin: 50px auto;
+  background: #1f1f1f;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 17px 2px #000;
+          box-shadow: 3px 3px 17px 2px #000;
+  -webkit-transition: width .5s ease;
+  transition: width .5s ease;
+}
+
+#contact .panel .bmd-label-floating, #contact .panel input {
+  color: #aaa;
+}
+
+#contact .panel .typed_wrap {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: 50px auto;
+}
+
+#contact .panel .typed_wrap label {
+  display: inline;
+  color: #aaa;
+}
+
+#contact .panel .typed1::after, #contact .panel .typed2::after {
+  content: '|';
+  display: inline;
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+}
+
+@-webkit-keyframes pulse {
+  40% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  40% {
+    opacity: 0;
+  }
+  50%, 100% {
+    opacity: 1;
+  }
+}
+
+#contact .panel #terminal {
+  margin-top: 5px;
+}
+
+#contact .panel .fade-out {
+  opacity: 0;
+  -webkit-transform: scale(1.6) rotate(-93deg) skewX(25deg) translateX(45px) translateY(-35px) translateZ(100px);
+          transform: scale(1.6) rotate(-93deg) skewX(25deg) translateX(45px) translateY(-35px) translateZ(100px);
+}
+
+#contact .panel .typed5 {
+  width: 100px;
+  font-family: 'Russo One', sans-serif;
+}
+
+#contact .info-background {
+  margin-top: 6rem;
+}
+
+#contact .info-background img {
+  max-width: 100%;
+  display: block;
+}
+
+#contact .info-content {
+  position: absolute;
+  top: 50%;
+  margin-top: -185px;
+  margin-left: -130px;
+  background: #FA5636;
+  padding: 30px;
+  min-width: 370px;
+  min-height: 370px;
+}
+
+#contact .info-content h3 {
+  font-size: 24px;
+  color: #fff;
+}
+
+#contact .info-content .contact-with {
+  position: absolute;
+  bottom: 20px;
+}
+
+#contact .info-content .contact-with p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px;
+  letter-spacing: normal;
+  width: 100%;
+  word-break: break-word;
+}
+
+.map-allworld {
+  -ms-touch-action: pan-y pan-y;
+      touch-action: pan-y pan-y;
+  cursor: cell;
+}
+
+@media (max-width: 990px) {
+  .bag-info {
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+  }
+  .info-content {
+    position: absolute !important;
+    top: 100% !important;
+    width: 90%;
+    max-height: 300px !important;
+    margin: auto !important;
+  }
+  .map-allworld {
+    margin-top: 400px !important;
+  }
+  .info-background {
+    display: none;
+  }
+}
+
+/* Responsive Panel */
+@media only screen and (max-width: 1385px) {
+  .panel {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .panel {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .panel {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .panel {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .panel {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

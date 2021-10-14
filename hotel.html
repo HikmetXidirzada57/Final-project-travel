@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Hotel search website</title>
+    <link rel="stylesheet" href="vendor/bootstrap.css">
+    <link rel="stylesheet" href="style/hotel.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- section hotels start //////// -->
+    <section id="rest-in-hotels" class="pt-5">
+        <div class="container-mini">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="sidebar-title">
+                        FILTER BY
+                    </h3>
+                 <div class="sidebar-item">
+                     <div class="item-title d-flex justify-content-between">
+                         <h4>Filter Price</h4>
+                         <span>
+                            <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            <i class="fa fa-angle-down d-none"></i>
+                         </span>
+                      
+                     </div>
+                     <div class="item-content">
+                        <form action="" class="rozetka-price-form">
+                            <section class="price-section">
+                              <div class="price-filter">
+                                <h2 class="price-title">Price</h2>
+                                <div class="price-filters">
+                                  <label><input type="text" value="$39,00"></label>
+                                  <span>-</span>
+                                  <label><input type="text" value="$350,00"></label>
+                                  <span>Cost</span>
+                                  <button>Ok</button>
+                                </div>
+                                <div class="range-controls">
+                                  <div class="scale">
+                                    <div class="bar" style="width:80%"></div>
+                                  </div>
+                                  <div class="range-toggle range-toggle-min"></div>
+                                  <div class="range-toggle range-toggle-max"></div>
+                                </div>
+                          
+                              </div>
+                            </section>
+                          </form>
+                        <button class="">APPLY</button>
+                     </div>
+                 </div>
+                 <div class="sidebar-item">
+                    <div class="item-title d-flex justify-content-between mx-2">
+                        <h4>Review Score</h4>
+                        <i class="fa fa-angle-up"></i>
+                    </div>
+                     <div class="item-content2">
+                         <ul class="list-unstyled">
+                             <li>
+                                 <label class="mx-4" for="Excellent">Excellent</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Very Good</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Average</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Poor</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Terrible</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                         </ul>
+                     </div>
+        
+                 </div>
+                 <div class="sidebar-item">
+                    <div class="item-title d-flex justify-content-between mx-2">
+                        <h4>Hotel Star</h4>
+                        <i class=" icone fa fa-angle-up" aria-hidden="true"></i>
+                    </div>
+                     <div class="item-content2">
+                         <ul class="list-unstyled">
+                             <li>
+                                 <label class="mx-4" for="Excellent">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                 </label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+        
+                                 </label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+        
+                                 </label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+        
+                                 </label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">
+                                    <i class="fas fa-star"></i>
+        
+                                 </label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="sidebar-item">
+                    <div class="item-title d-flex justify-content-between mx-2">
+                        <h4>Review Score</h4>
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </div>
+                     <div class="item-content2">
+                         <ul class="list-unstyled">
+                             <li>
+                                 <label class="mx-4" for="Excellent">Air Conditioning</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Air Transport</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Fitness Center</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                         </ul>
+                         <a class="for-more" href="#">More
+                            <i class="fas fa-arrow-circle-down"></i>
+                         </a>
+                     </div>
+                 </div>
+                 <div class="sidebar-item">
+                    <div class="item-title d-flex justify-content-between mx-2">
+                        <h4>Hotel Theme</h4>
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </div>
+                     <div class="item-content2">
+                         <ul class="list-unstyled">
+                             <li>
+                                 <label class="mx-4" for="Excellent">Best Value</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Boutique</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                             <li>
+                                 <label class="mx-4" for="Excellent">Budget</label>
+                                 <span class="checkmark"></span>
+                                 <input type="checkbox" name="#" value="2" class="filter">
+                             </li>
+                         </ul>
+                         <a class="for-more" href="#">More
+                            <i class="fas fa-arrow-circle-down"></i>
+                         </a>
+                     </div>
+                 </div>
+                </div>
+                <div class="col-lg-9 col-md-6 col-sm-12">
+                    <div class="toolbar my-3">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-10 col-md-12 col-sm-12">
+                                <h3>
+                                    San Francisco: 20 hotels found
+                                 <span class="clear-filter">Clear filter</span>
+                                </h3>
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12">
+                                <ul class="ul list-unstyled d-flex justify-content-between">
+                                    <li class="sort">
+                                        Sort
+                                        <span>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="icon-field">
+                                            <i class="fa fa-th" aria-hidden="true"></i>
+                                            <i class="fa fa-list" aria-atomic="false"></i>
+                                        </span>
+                                    </li>
+                                 
+                                </ul>
+                         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modern-search-result">
+                        <div class="loader">
+                            <div class="loading"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/167411799-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        EnVision Hotel Boston
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$244,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/74264099-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Hotel Stanford
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$39,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/169474401-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Parian Holiday Villas
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$234,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/60337007-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Dylan Hotel
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$273,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/63380673-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        The May Fair Hotel
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$128,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/84514008-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Hotel Malte – Astotel
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$130,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/36758163-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Hotel WBF Hommachi
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$350,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/79746510-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Hyatt Centric Times Square
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$264,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/137313636-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Edwardian Kenilworth
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$128,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/93585266-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Hotel Ascot Opera
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$130,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/574581_17042015570052514529-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        SLS Las Vegas Hotel
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$244,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-4 col-xs-12">  
+                                       <div class="hotel-bg">
+                                    <img class="img-fluid" src="image/154186667-680x630.jpg" alt="">
+                                    <div class="tag">
+                                        <span>Featured</span>
+                                    </div>
+                                    <div class="like-heart">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                  <div class="star-price">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                  </div>
+                                </div>
+                                <div class="info">
+                                    <h4 class="service-title">
+                                        Grand Desert Resort
+                                    </h4>
+                                    <div class="location mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Boston, MA, USA
+                                    </div>
+                                    <div class="service-review mb-1">
+                                        <span class="rating">4.4/5 Excellent</span>                          
+                                        <span class="review">2 Reviews</span>
+                                    </div>
+                                    <div class="price-hotel">
+                                        <span>
+                                            <i class="fas fa-bolt"></i>
+                                                From
+                                        </span>
+                                        <span class="cost">$273,00</span>
+                                        <span>/night</span>
+        
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sort-pages d-flex justify-content-center">
+                            <ul class="d-flex list-unstyled">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">
+                                    <i class="fas fa-angle-right"></i>
+                                    </a>
+                             </li>
+                            </ul>
+                        </div>
+                    </div>
+          
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- section hotels end //////// -->
+
+
+
+
+
+
+
+
+     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

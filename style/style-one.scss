@@ -1,0 +1,270 @@
+.container-mini {
+    width: 75%;
+    margin: auto;
+}
+
+// section about us start 
+#about-us {
+    padding-top: 40px;
+    .title {
+        color: #5195fa;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        margin: 24px 0;
+    }
+    .text {
+        font-size: 16px;
+        color: #768092;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: sans-serif;
+    }
+
+    .coloumn-inner {
+        .item {
+            background-color: #fff;
+            border: 5px solid #5191FA;
+            text-align: center;
+            position: relative;
+            transition: 1s;
+            height: 25vh;
+
+            .front {
+                position: absolute;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                transition: all 0.5s;
+                .inner {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    h4 {
+                        font-size: 37px;
+                        color: #1A2B48;
+                        font-weight: 700;
+                        margin: 0;
+                        letter-spacing: 1px;
+                        font-family: inherit;
+                    }
+                    .desc {
+                        font-size: 16px;
+                        color: #1A2B48;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                    }
+
+                }
+            }
+            .end {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 0;
+                left: 0;
+                padding: 20px;
+                background-color: #5191FA;
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.6s;
+
+                .sub-text {
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    color: #fff;
+                    text-align: left;
+                    transform: rotateY(180deg);
+                }
+            }
+            &:hover {
+
+                visibility: visible;
+                opacity: 1;
+                transform: rotateY(180deg);
+                .end {
+                    visibility: visible;
+                    opacity: 1;
+                }
+                .inner {
+                    display: none;
+                }
+
+            }
+        }
+    }
+    .admin-blin{
+        text-align: center;
+        padding: 3rem 0rem;
+        .head-title{
+            h5{
+                color: #1a2b48;
+                font-size: 20px;
+                color: #1A2B48;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 40px;
+                font-weight: 400;
+                margin-bottom: 40px;
+            }
+        
+        }
+        .wrap-down{
+            display: flex;
+            justify-content: center;
+            .admin-image{
+             .top-down {
+                 margin: auto;
+             }
+                .nick-text{
+                    h6,p{
+                        text-align: center;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 13px;
+                    }
+                 
+                }
+            }
+        }
+      
+    }
+}
+// section about us end
+
+@media(max-width:968px){
+    #about-us {
+        .container-mini {
+           width: 95% !important;
+        }
+    }
+    .coloumn-inner{
+        .item {
+            margin-bottom: 15px;
+            height: 65vh !important;
+        }
+    }
+   
+}
+
+
+#slog-relative{
+ position: relative;
+ margin: auto;
+
+ // flick carousel start 
+ .gallery {
+    position: relative;
+    padding: 3rem 0rem;
+
+    .gallery-cell {
+        width: 66%;
+        height: 500px;
+        margin-right: 10px;
+      }
+      .text-center{
+        text-align:center
+      }
+      .slogan{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+      
+        h4{
+            font-size: 48px;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        a{
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #fff;
+            font-weight: 400;
+            background-color: #fa5636;
+            border: none;
+        }
+      }
+  }
+    // flick carousel end
+  .slogan{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      h4{
+        font-size: 48px;
+        color: #FFF;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      .btn{
+        //   display: block;
+        padding: 10px 20px;
+        font-size: 14px;
+        color: #FFF;
+        font-weight: 400;
+         background-color: #fa5636;
+         border: none; 
+      }
+  }
+
+}
+
+
+//   responsive flick/////////
+  @media(max-width:990px){
+      .flick-carousel{
+          margin: auto;
+      }
+       .slogan{
+           position: absolute;
+           top: 30%;
+        
+           transform: translate(-50%,-50%);
+           width: 100%;
+           h4{
+            font-size: 20px !important;
+            margin: 0 !important;
+           }
+           a{
+               padding: 6px 15px !important;
+           }
+       } 
+  }
+ 
+  
+#LeaderShip{
+  padding: 5rem 0rem;
+  .team-member{
+      border-radius: 50%;
+      margin-bottom: 25px;
+      transition: 0.2s ease-in-out;
+      &:hover{
+          img{
+            background-color: #5191FA;
+            opacity: 0.5;
+          }
+        
+          
+      }
+    .nick-text{
+        margin-top: 15px;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+  }
+  .textalign{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+}

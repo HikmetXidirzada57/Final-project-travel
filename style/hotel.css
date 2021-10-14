@@ -1,0 +1,356 @@
+.container-mini {
+  width: 80%;
+  margin: auto;
+}
+
+i {
+  cursor: pointer;
+}
+
+.sidebar-title {
+  position: relative;
+  font-size: 16px;
+  color: #1A2B48;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.sidebar-title::before {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: -10px;
+  background-color: #5191FA;
+  height: 20px;
+  width: 3px;
+}
+
+.sidebar-item {
+  border: 1px solid #d7dce3;
+  border-radius: 4px;
+  padding: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.sidebar-item .item-title {
+  margin: 10px 0px;
+}
+
+.sidebar-item .item-title h4 {
+  font-size: 15px;
+  color: #1A2B48;
+  line-height: 23px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.sidebar-item .item-content button {
+  color: #5191FA;
+  background: none;
+  border: none;
+  font-weight: 600;
+}
+
+.sidebar-item .item-content .rozetka-price-form {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar-item .item-content .rozetka-price-form .price-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 270px;
+}
+
+.sidebar-item .item-content .rozetka-price-form .price-title {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 15px;
+  color: #0080c0;
+}
+
+.sidebar-item .item-content .rozetka-price-form .price-filters {
+  margin-bottom: 30px;
+}
+
+.sidebar-item .item-content .rozetka-price-form .price-filters input {
+  width: 70px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.sidebar-item .item-content .rozetka-price-form .price-filters input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.sidebar-item .item-content .rozetka-price-form .price-filters button {
+  border: none;
+  margin-left: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #0080c0;
+  cursor: pointer;
+}
+
+.sidebar-item .item-content .rozetka-price-form .range-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  width: 180px;
+  margin-left: 35px;
+}
+
+.sidebar-item .item-content .rozetka-price-form .scale {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  height: 3px;
+  background-color: #666;
+}
+
+.sidebar-item .item-content .rozetka-price-form .range-toggle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 50%;
+  top: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.sidebar-item .item-content .rozetka-price-form .range-toggle-max {
+  right: 35px;
+}
+
+.sidebar-item .item-content .rozetka-price-form .bar {
+  background-color: #19a1e5;
+  height: 4px;
+}
+
+.sidebar-item .item-content2 ul li {
+  position: relative;
+  margin: 10px;
+}
+
+.sidebar-item .item-content2 ul li label {
+  font-size: 14px;
+  color: #5E6D77;
+  font-weight: 500;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.sidebar-item .item-content2 ul li label i {
+  font-size: 10px;
+  color: #FA5636;
+}
+
+.sidebar-item .item-content2 ul li .checkmark, .sidebar-item .item-content2 ul li .filter {
+  border: 1px solid #a0a9b2;
+  width: 46px;
+  height: 16px;
+  border-radius: 2px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+}
+
+.sidebar-item .item-content2 .for-more {
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .price-filter {
+    width: 180px !important;
+  }
+  .scale {
+    width: 300px !important;
+    margin-right: 70px;
+  }
+  .range-toggle {
+    margin-right: 50px !important;
+  }
+}
+
+.toolbar h3 {
+  font-size: 24px;
+  color: #1A2B48;
+  font-weight: 400;
+  float: left;
+  margin: 0;
+  width: calc(100% - 150px);
+}
+
+.toolbar .clear-filter {
+  color: #5191FA;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.toolbar .ul .sort {
+  font-size: 14px;
+  font-weight: 500;
+  color: #263753c4;
+}
+
+.toolbar .ul .sort i {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.toolbar .ul .icon-field i {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.modern-search-result .hotel-bg {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.modern-search-result .hotel-bg .tag {
+  position: absolute;
+  top: 7%;
+}
+
+.modern-search-result .hotel-bg .tag span {
+  padding: 6px 15px;
+  background-color: #19a1e5;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.modern-search-result .hotel-bg .like-heart {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  color: #fff;
+  font-size: 23px;
+}
+
+.modern-search-result .hotel-bg .star-price {
+  position: absolute;
+  color: #FA5636;
+  padding: 0;
+  margin: 0;
+  bottom: 12px;
+  left: 14px;
+  font-size: 11px;
+}
+
+.modern-search-result .hotel-bg img {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.modern-search-result .hotel-bg:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.modern-search-result .info {
+  padding: 1rem 0rem;
+}
+
+.modern-search-result .info .service-title {
+  font-family: inherit;
+  font-weight: 500;
+  color: #1a2b50;
+  font-size: 17px;
+}
+
+.modern-search-result .info .location {
+  color: #5e6d77;
+}
+
+.modern-search-result .info .location i {
+  font-weight: 300;
+}
+
+.modern-search-result .info .service-review .rating {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5191FA;
+  margin-right: 15px;
+  position: relative;
+}
+
+.modern-search-result .info .service-review .rating::after {
+  position: absolute;
+  content: "";
+  top: 38%;
+  left: 95px;
+  border-radius: 50%;
+  background-color: #5e6d77;
+  width: 5px;
+  height: 5px;
+}
+
+.modern-search-result .info .service-review .review {
+  color: #5e6d77;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.modern-search-result .info .price-hotel span {
+  margin-right: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5e6d77;
+}
+
+.modern-search-result .info .price-hotel span i {
+  color: #FA5636;
+  opacity: 0.5;
+}
+
+.modern-search-result .info .price-hotel .cost {
+  font-weight: 500;
+}
+
+.modern-search-result .sort-pages ul li {
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.modern-search-result .sort-pages ul li:first-child {
+  border: 1px solid #5191FA;
+}
+
+.modern-search-result .sort-pages ul li a {
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+}
+/*# sourceMappingURL=hotel.css.map */
