@@ -230,10 +230,95 @@ i {
   cursor: pointer;
 }
 
+.modern-search-result .loader {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(238, 238, 238, 0.377);
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modern-search-result .loader .loading {
+  width: 80px;
+  height: 5px;
+  border-radius: 10px;
+  color: #2e052e;
+  -webkit-animation: hotelAni 1s infinite;
+          animation: hotelAni 1s infinite;
+}
+
+.modern-search-result .loader .select {
+  margin-top: 100px;
+  width: 180px;
+  height: 5px;
+  color: #1b42c0;
+  -webkit-animation: selectAni 1s infinite;
+          animation: selectAni 1s infinite;
+}
+
+@-webkit-keyframes hotelAni {
+  from {
+    margin-left: 80px;
+    background-color: salmon;
+  }
+  to {
+    margin-right: 100px;
+    background: blue;
+  }
+}
+
+@keyframes hotelAni {
+  from {
+    margin-left: 80px;
+    background-color: salmon;
+  }
+  to {
+    margin-right: 100px;
+    background: blue;
+  }
+}
+
+@-webkit-keyframes selectlAni {
+  from {
+    margin-left: 80px;
+    background-color: #181312;
+  }
+  to {
+    margin-right: 100px;
+    background: blue;
+  }
+}
+
+@keyframes selectlAni {
+  from {
+    margin-left: 80px;
+    background-color: #181312;
+  }
+  to {
+    margin-right: 100px;
+    background: blue;
+  }
+}
+
 .modern-search-result .hotel-bg {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.modern-search-result .hotel-bg.active {
+  width: 100%;
 }
 
 .modern-search-result .hotel-bg .tag {

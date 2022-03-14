@@ -192,6 +192,7 @@
   margin-bottom: 10px;
   margin-right: 13px;
   text-decoration: none;
+  position: relative;
 }
 
 #blogs .tag-down a::after {

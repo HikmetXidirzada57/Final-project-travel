@@ -219,10 +219,67 @@ h3{
 
 }
 .modern-search-result{
+    
+    // loader start /////
+    .loader{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color:rgba(238, 238, 238, 0.377);
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .loading{
+         width: 80px;
+         height: 5px;
+         border-radius: 10px;
+         color: rgb(46, 5, 46);
+         animation: hotelAni 1s infinite;
+        }
+        .select{
+            margin-top: 100px;
+            width: 180px;
+            height: 5px;
+            color: rgb(27, 66, 192);
+            animation: selectAni 1s infinite;
+           }
+    
+    }
+    @keyframes hotelAni{
+     from {
+        
+         margin-left: 80px;
+        background-color: salmon;
+     }  
+     to{
+         margin-right: 100px;
+         background: blue;
+     }
+
+    }
+    @keyframes selectlAni{
+        from {
+           
+            margin-left: 80px;
+           background-color: rgb(24, 19, 18);
+        }  
+        to{
+            margin-right: 100px;
+            background: blue;
+        }
+   
+       }
     .hotel-bg{
         position: relative;
         overflow: hidden;
         border-radius: 5px;
+        &.active {
+            width: 100%;
+        }
         .tag{
             position: absolute;
             top: 7%;

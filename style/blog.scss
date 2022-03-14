@@ -174,17 +174,17 @@
  .tag-down{
      width: 70%;
      a{
-        font-size: 11px;
-        color: #1A2B48;
-        font-weight: 500;
-        background: #F7F6F6;
-        border-radius: 3px;
-        padding: 9px 10px;
-        display: inline-block;
-        margin-bottom: 10px;
-        margin-right: 13px;
+         font-size: 11px;
+         color: #1A2B48;
+         font-weight: 500;
+         background: #F7F6F6;
+         border-radius: 3px;
+         padding: 9px 10px;
+         display: inline-block;
+         margin-bottom: 10px;
+         margin-right: 13px;
          text-decoration: none;
-      
+         position: relative;
          &::after{
            content: '';
            position: absolute;
